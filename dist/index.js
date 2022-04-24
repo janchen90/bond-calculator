@@ -12,7 +12,7 @@ var schema = _joi["default"].object().keys({
   rate: _joi["default"].number().min(0).max(1).required(),
   redemption: _joi["default"].number().positive().required(),
   frequency: _joi["default"].number().valid([1, 2, 4, 12]).required(),
-  convention: _joi["default"].string().valid(['30U/360', 'ACTUAL/ACTUAL', 'ACTUAL/360', 'ACTUAL/365', '30E/360', '30/360']).required()
+  convention: _joi["default"].string().valid(['30U/360', 'ACTUAL/ACTUAL', 'ACTUAL/360', 'ACTUAL/365', '30E/360', '30/360', '30/365']).required()
 });
 
 module.exports = function (bond) {
