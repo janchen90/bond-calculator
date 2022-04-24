@@ -21,7 +21,7 @@ More info about day count conventions can be found on [Wikipedia](https://en.wik
 
 ## Installation
 ```
-npm install --save @floydspace/bond-calculator
+npm install --save @janchen90/bond-calculator
 ```
 
 ## Usage
